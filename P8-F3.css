@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    float: left;
+}
+
+li a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+.nav {
+    background-color: chocolate;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    list-style: none;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    box-shadow: 0 0 10px inset;
+}
+
+ul:after {
+    clear: both;
+    display: block;
+}
+
+ul li:hover {
+    background-color: aqua;
+    border-radius: 4px;
+}
